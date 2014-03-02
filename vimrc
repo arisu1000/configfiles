@@ -21,8 +21,9 @@ filetype plugin indent on
 
 set nu
 syntax enable 
-"set background=dark
-set background=light
+autocmd VimEnter * NERDTree
+set background=dark
+"set background=light
 let g:solarized_termtrans=0
 let g:solarized_termcolors=256
 let g:solarized_contrast="high"
